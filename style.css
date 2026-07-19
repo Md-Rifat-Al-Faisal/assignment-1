@@ -250,9 +250,35 @@ body {
 }
 .plan-details li::before {
     content: "•";
-    color: #2E4DD0;
+    color: #3B62E2;
     font-size: 20px;
     position: absolute;
     left: 0;
     top: -4px;
+}
+.card-2 .common-btn{
+    width: 100%;
+}
+.plan-btn{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+}
+.card-1 .plan-btn{
+    color: #3B62E2;
+    border: 1px solid #3B62E2;
+}
+.card-1 .plan-btn:hover{
+    background-color: #eff6ff;
+}
+.card-3 .plan-btn{
+    color: #111B29;
+    border: 1px solid #111B29;
+}
+.card-3 .plan-btn:hover{
+    background-color: #f1f5f9;
 }
