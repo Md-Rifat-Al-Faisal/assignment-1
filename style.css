@@ -158,3 +158,54 @@ body {
     font-weight: 500;
 }
 
+/*Secure Your Spot section*/
+.pricing-parent{
+    padding: 100px 20px;
+    text-align: center;
+}
+.pricing-parent h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+.pricing-parent p{
+    font-size: 16px;
+    color:#575757;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.pricing-card{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.card-2 .plan-name{
+    color: #A1C4F8 !important;
+}
+.card-2 .plan-details{
+    color: #CFD1D4 !important;
+}
+.card-1, .card-2, .card-3{
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 40px 30px;
+    text-align: left;   
+    height: 100%;
+}
+
+.card-1{
+    background-color: white;
+}
+.card-2{
+    background-color: #111B29;
+    color: white;
+    border: none;
+   
+}
+.card-3{
+    background-color: #F8F9FB;
+}
