@@ -186,9 +186,7 @@ body {
 .card-2 .plan-name{
     color: #A1C4F8 !important;
 }
-.card-2 .plan-details{
-    color: #CFD1D4 !important;
-}
+
 .card-1, .card-2, .card-3{
     border: 1px solid #E5E7EB;
     border-radius: 12px;
@@ -208,4 +206,53 @@ body {
 }
 .card-3{
     background-color: #F8F9FB;
+}
+
+.plan-name{
+    font-size: 13px;
+    font-weight: 700;
+    color: #888888;
+    margin-bottom: 10px;
+}
+.plan-price{
+    color: #111B29;
+}
+.card-2 .plan-price{
+    color: white;
+}
+.plan-per{
+    color: #888888;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 20px;
+}
+.card-1 hr, .card-2 hr, .card-3 hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 30px;
+}
+.card-2 hr{
+    border-top-color: #28313E;
+}
+.plan-details{
+    list-style: none;
+    margin-bottom: 40px;
+}
+.plan-details li{
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 24px;
+}
+.card-2 .plan-details li{
+    color: #CFD1D4;
+}
+.plan-details li::before {
+    content: "•";
+    color: #2E4DD0;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: -4px;
 }
