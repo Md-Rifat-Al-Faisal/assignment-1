@@ -118,7 +118,8 @@ body {
 }
 .speakers-container{
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 642px));
+    justify-content: center;
     gap: 30px;
 }
 .speaker-card{
@@ -134,5 +135,25 @@ body {
     height: 324px;
     object-fit: cover;
     display: block;
-
+}
+.speaker-info{
+    padding: 24px 30px;
+}
+.speaker-work-sector{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #2E4DD0;
+    margin-bottom: 8px;
+}
+.speaker-info h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 8px;
+}
+.speaker-info p{
+    font-size: 16px;
+    color: #575757;
+    font-weight: 500;
 }
