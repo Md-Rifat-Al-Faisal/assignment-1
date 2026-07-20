@@ -15,5 +15,6 @@ prompt 7: did not work.
 
 prompt 8: point out exact lines to change instead of giving whole code.
 
-prompt 9:
-prompt 10:
+prompt 9: event tag should have a light blue background #D0DCF3
+
+prompt 10: the whole section is streching too much. i want it fixed
